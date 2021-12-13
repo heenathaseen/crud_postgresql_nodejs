@@ -1,0 +1,28 @@
+{
+    "db_postgres": {
+        "user": "postgres",
+        "port": 5432,
+        "host":"localhost",
+        "database": "postgres",
+        "password": "heena"
+    },
+    "response_code": {
+        "success": 600,
+        "field_validation": 605,
+        "error": 604,
+        "empty_results": 615,
+        "error_message": "Please Check Logs",
+        "rolename_duplicate": 651,
+        "fk_constraint_exception": 606,
+        "partialSuccess": 601,
+        "duplication_exception": 607,
+        "student_duplicate":"student Is Already registered"
+    },
+    "http_status": {
+        "ok": 200
+    },
+       "errors": {
+        "Error: 23505": 607,
+        "Error: 23503": 606
+    }
+}
